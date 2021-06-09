@@ -222,7 +222,11 @@ label
     
     .d-table-cell
         text-align: center
-    
+        width: 100vw
+        @media (max-width: $layout-breakpoint-md)
+            padding-top: 48px
+            overflow: auto
+            height: 100vh
     .register-form
         visibility: visible
         opacity: 1

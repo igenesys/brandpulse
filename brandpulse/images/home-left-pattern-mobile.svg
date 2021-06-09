@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="164.686" height="208.272" viewBox="0 0 164.686 208.272">
-  <g id="Pattern" transform="translate(-0.102)">
-    <path id="Shape" d="M0,17.5a17.5,17.5,0,1,1,17.5,17.5A17.5,17.5,0,0,1,0,17.5Z" transform="translate(0.105 173.28)" fill="#e03c31"/>
-    <path id="Path" d="M17.5,0A17.5,17.5,0,0,0,0,17.5H6.1a11.393,11.393,0,1,1,22.785,0h6.1A17.5,17.5,0,0,0,17.5,0Z" transform="translate(43.33 129.796)" fill="#e03c31"/>
-    <path id="Shape-2" data-name="Shape" d="M0,17.5a17.5,17.5,0,1,1,17.5,17.5A17.5,17.5,0,0,1,0,17.5Z" transform="translate(129.796 86.564)" fill="#e03c31"/>
-    <path id="Shape-3" data-name="Shape" d="M26.244,32.652a18.1,18.1,0,0,1-8.748,2.34A17.5,17.5,0,0,1,17.5,0a15.682,15.682,0,0,1,8.748,2.543A18.1,18.1,0,0,1,34.992.2v6.1a11.215,11.215,0,0,0-3.764.611,17.035,17.035,0,0,1,0,21.361,11.677,11.677,0,0,0,3.764.611v6.1A17.046,17.046,0,0,1,26.244,32.652Z" transform="translate(0.102 86.564)" fill="#e03c31"/>
-    <path id="Path-2" data-name="Path" d="M0,0V6.1A11.374,11.374,0,0,1,11.393,17.5h6.1A17.5,17.5,0,0,0,0,0Z" transform="translate(147.292 43.231)" fill="#e03c31"/>
-    <path id="Path-3" data-name="Path" d="M17.5,11.393A11.374,11.374,0,0,1,6.1,0H0A17.5,17.5,0,0,0,34.992,0h-6.1A11.374,11.374,0,0,1,17.5,11.393Z" transform="translate(86.564 66.424)" fill="#e03c31"/>
-    <path id="Shape-4" data-name="Shape" d="M0,20.548V17.5a17.445,17.445,0,1,1,34.89,0v3.052Z" transform="translate(86.564 43.231)" fill="#e03c31"/>
-    <path id="Shape-5" data-name="Shape" d="M0,17.5a17.5,17.5,0,1,1,17.5,17.5A17.5,17.5,0,0,1,0,17.5Z" transform="translate(43.333 43.231)" fill="#e03c31"/>
-    <path id="Path-4" data-name="Path" d="M17.5,34.992v-6.1A11.393,11.393,0,1,1,17.5,6.1V0a17.5,17.5,0,0,0,0,34.992Z" transform="translate(43.333)" fill="#e03c31"/>
-    <path id="Shape-6" data-name="Shape" d="M0,17.5a17.5,17.5,0,1,1,17.5,17.5A17.5,17.5,0,0,1,0,17.5Z" transform="translate(0.102)" fill="#e03c31"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="164.686" height="208.272" viewBox="0 0 164.686 208.272">
+  <g id="Pattern" transform="translate(-0.102)">
+    <path id="Shape" d="M0,17.5a17.5,17.5,0,1,1,17.5,17.5A17.5,17.5,0,0,1,0,17.5Z" transform="translate(0.105 173.28)" fill="#e03c31"/>
+    <path id="Path" d="M17.5,0A17.5,17.5,0,0,0,0,17.5H6.1a11.393,11.393,0,1,1,22.785,0h6.1A17.5,17.5,0,0,0,17.5,0Z" transform="translate(43.33 129.796)" fill="#e03c31"/>
+    <path id="Shape-2" data-name="Shape" d="M0,17.5a17.5,17.5,0,1,1,17.5,17.5A17.5,17.5,0,0,1,0,17.5Z" transform="translate(129.796 86.564)" fill="#e03c31"/>
+    <path id="Shape-3" data-name="Shape" d="M26.244,32.652a18.1,18.1,0,0,1-8.748,2.34A17.5,17.5,0,0,1,17.5,0a15.682,15.682,0,0,1,8.748,2.543A18.1,18.1,0,0,1,34.992.2v6.1a11.215,11.215,0,0,0-3.764.611,17.035,17.035,0,0,1,0,21.361,11.677,11.677,0,0,0,3.764.611v6.1A17.046,17.046,0,0,1,26.244,32.652Z" transform="translate(0.102 86.564)" fill="#e03c31"/>
+    <path id="Path-2" data-name="Path" d="M0,0V6.1A11.374,11.374,0,0,1,11.393,17.5h6.1A17.5,17.5,0,0,0,0,0Z" transform="translate(147.292 43.231)" fill="#e03c31"/>
+    <path id="Path-3" data-name="Path" d="M17.5,11.393A11.374,11.374,0,0,1,6.1,0H0A17.5,17.5,0,0,0,34.992,0h-6.1A11.374,11.374,0,0,1,17.5,11.393Z" transform="translate(86.564 66.424)" fill="#e03c31"/>
+    <path id="Shape-4" data-name="Shape" d="M0,20.548V17.5a17.445,17.445,0,1,1,34.89,0v3.052Z" transform="translate(86.564 43.231)" fill="#e03c31"/>
+    <path id="Shape-5" data-name="Shape" d="M0,17.5a17.5,17.5,0,1,1,17.5,17.5A17.5,17.5,0,0,1,0,17.5Z" transform="translate(43.333 43.231)" fill="#e03c31"/>
+    <path id="Path-4" data-name="Path" d="M17.5,34.992v-6.1A11.393,11.393,0,1,1,17.5,6.1V0a17.5,17.5,0,0,0,0,34.992Z" transform="translate(43.333)" fill="#e03c31"/>
+    <path id="Shape-6" data-name="Shape" d="M0,17.5a17.5,17.5,0,1,1,17.5,17.5A17.5,17.5,0,0,1,0,17.5Z" transform="translate(0.102)" fill="#e03c31"/>
+  </g>
+</svg>
