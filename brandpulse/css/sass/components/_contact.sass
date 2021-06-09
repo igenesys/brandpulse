@@ -7,14 +7,8 @@
     justify-content: space-between
     align-items: flex-start
     @media (max-width: $layout-breakpoint-lg)
-        width: 435px
-        margin: 0 auto
-        max-width: 100%
         flex-wrap: wrap
         position: relative
-        justify-content: center
-    @media (max-width: $layout-breakpoint-sm)
-        width: 380px
     .contact-section-lh
         background: $light-gray
         width: 280px
@@ -25,6 +19,7 @@
             width: 435px
             margin: -50px auto 0
         @media (max-width: $layout-breakpoint-md)
+            width: 480px
             margin: -78px auto 20px
         @media (max-width: $layout-breakpoint-sm)
             width: 380px
@@ -78,12 +73,9 @@
     @media (max-width: $layout-breakpoint-xxl)
         margin-right: 0px
     @media (max-width: $layout-breakpoint-lg)
-        width: 435px
-        max-width: 100%
-        margin: 0 auto
+        width: 100%
+        margin: 0
         position: static
-    @media (max-width: $layout-breakpoint-sm)
-        width: 380px
     .pin-wrapper
         @media (max-width: $layout-breakpoint-lg)
             height: 0!important
@@ -102,15 +94,13 @@
             margin: auto
             width: 435px
         @media (max-width: $layout-breakpoint-md)
+            width: 480px
             top: -211px
         @media (max-width: $layout-breakpoint-sm)
             width: 380px
             max-width: 100%
         @media (max-width: $layout-breakpoint-vs)
             width: 100%
-        &.hide-popup
-            opacity: 0 
-            visibility: hidden
         .close-icon
             position: absolute
             height: 16px
@@ -215,4 +205,3 @@
     .btn
         border-width: 2px
         margin-top: 6px
-

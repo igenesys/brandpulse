@@ -1,0 +1,202 @@
+.landingspagina-banner
+    background-color: #ff392e
+    color: $brandWhite
+    height: 680px
+    position: relative
+    margin-bottom: 9px
+    @media (max-width: $layout-breakpoint-sm)
+        height: 640px
+        margin-bottom: 59px
+    &::before
+        content: ""
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+        height: 120px
+        background: $brandWhite
+        @media (max-width: $layout-breakpoint-sm)
+            height: 60px
+    img
+        display: none
+    &__bg
+        position: absolute
+        bottom: 0
+        left: 0
+        right: 0
+        top: 0
+        background-size: auto
+        background-position: center bottom
+        background-repeat: no-repeat
+        &_larg
+            opacity: 1
+            visibility: visible
+            @media (max-width: $layout-breakpoint-xl)
+                opacity: 0
+                visibility: hidden
+        &_medium
+            opacity: 0
+            visibility: hidden
+            @media (max-width: $layout-breakpoint-xl)
+                opacity: 1
+                visibility: visible
+                background-position: right bottom
+            @media (max-width: $layout-breakpoint-sm)
+                opacity: 0
+                visibility: hidden
+        &_small
+            opacity: 0
+            visibility: hidden
+            @media (max-width: $layout-breakpoint-sm)
+                opacity: 1
+                visibility: visible
+                background-position: center bottom
+    &__caps
+        position: absolute
+        bottom: 0
+        &_cover
+            position: absolute
+            bottom: 187px
+            width: 100%
+            @media (max-width: $layout-breakpoint-sm)
+                bottom: 234px
+        &_inner
+            width: 470px
+            max-width: 100%
+            @media (max-width: $layout-breakpoint-md)
+                width: 390px
+            label
+                margin: 0 0 7px
+                display: block
+            h1
+                line-height: 1.24em
+.pricing-section
+    position: relative
+    padding: 39px 0 0
+    @media (max-width: $layout-breakpoint-lg)
+        overflow: hidden
+    @media (max-width: $layout-breakpoint-sm)
+        padding: 0
+    &::after
+        content: ""
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        top: 290px
+        background: $black-pearl
+    &__inner
+        position: relative
+        z-index: 1
+        padding: 0 0 45px
+    .owl-carousel
+        .owl-stage-outer
+            overflow: visible
+        .owl-item
+            &:nth-child(2)
+                .pricing-block
+                    @media (min-width: 640px)
+                        margin-top: -19px
+                    .pricing-block__desc
+                        @media (min-width: 640px)
+                            padding-bottom: 70px
+            .item
+                padding: 50px 0
+                @media (max-width: $layout-breakpoint-sm)
+                    padding: 30px 0
+        .owl-dots
+            display: flex
+            align-items: center
+            justify-content: center
+            margin: 0 0 40px                
+            button
+                height: 8px
+                width: 8px
+                border-radius: 50%
+                border: 1px solid $brandWhite
+                margin: 0 5px
+                &.active
+                    background: $brandWhite
+    &__bottom-caps
+        color: $brandWhite
+        text-align: center
+        p
+            margin: 0
+            a
+                color: $brandWhite
+                text-decoration: underline
+.pricing-block
+    border-radius: 20px
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25)
+    position: relative
+    margin-bottom: 16.5px
+    background: $brandWhite
+    max-width: 394px
+    @media (max-width: $layout-breakpoint-sm)
+        max-width: 260px
+    &__title
+        background: $black-pearl
+        color: $brandWhite
+        text-align: center
+        padding: 22px 20px 23px
+        border-radius: 20px 20px 0 0
+        .h4
+            margin: 0
+            font-size: 24px
+            font-family: $brandpulsebold
+            text-transform: uppercase
+        p
+            margin: 0
+    &__desc
+        padding: 30px
+        @media (max-width: $layout-breakpoint-sm)
+            padding: 17px 20px
+        &_top
+            border-bottom: 1px solid $brandBlack
+            padding: 6px 10px
+            line-height: 1.35em
+            @media (max-width: $layout-breakpoint-sm)
+                padding: 0
+            p
+                @media (max-width: $layout-breakpoint-sm)
+                    margin: 0 0 16px 
+
+        &_bottom
+            padding: 24px 0 9px
+            @media (max-width: $layout-breakpoint-sm)
+                padding: 17px 0 9px
+            ul 
+                margin: 0
+                li
+                    padding: 0 0 12px 24px
+                    @media (max-width: $layout-breakpoint-sm)
+                        padding: 0 0 17px 13px
+                        line-height: 1.3em
+                    &::before
+                        height: 2px
+                        width: 2px
+                        border-radius: 50%
+                        background: none
+                        border: 1px solid $cinnabar
+                        left: 10px
+                        top: 11px
+                        @media (max-width: $layout-breakpoint-sm)
+                            left: 0.5px
+                            top: 7px
+    &__btn
+        text-align: center
+        position: absolute
+        left: 0
+        right: 0
+        bottom: -16.5px
+        .btn
+            padding: 0 20px 
+            &:hover
+                background: $brandWhite
+.over-ons-candidate 
+    &.landingspagina-team
+        padding-top: 70px
+        @media (max-width: $layout-breakpoint-sm)
+            padding-top: 0px
+        .over-ons-candidate-row
+            display: flex
