@@ -1,0 +1,115 @@
+.news-listing-filter
+    .cases-filter
+        padding-bottom: 46px
+        @media (max-width: $layout-breakpoint-md)
+            padding-bottom: 48px
+.feacherd-news
+    position: relative
+    margin-bottom: 50px
+.feacherd-news-row
+    display: flex
+    justify-content: flex-end
+    > div
+    .feacherd-news-img
+        position: absolute
+        left: 0
+        top: 0
+        bottom: 0
+        width: 63.2%
+        background-size: cover
+        background-position: center
+        @media (max-width: 1440px)
+            width: 65.6%
+    .feacherd-news-caps
+        padding-top: 102px
+        padding-bottom: 102px
+        padding-left: 50px
+        width: 33.9%
+        position: relative
+        @media (max-width: $layout-breakpoint-xl)
+            padding-top: 60px
+            padding-bottom: 60px
+        &:before
+            content: ""
+            position: absolute
+            top: 0
+            bottom: 0
+            width: 50vw
+            left: 99%
+            background: $black-pearl
+        label
+            display: block
+            padding: 0 0 5px
+            line-height: normal
+            img
+                display: inline-block
+                vertical-align: middle
+                margin-right: 10px
+        h1,.h1
+            margin: 0 0 20px
+            a
+                color: $brandWhite
+                &:hover
+                    color: $cinnabar
+        .btn    
+            margin-top: 14px
+            
+.news-block
+    position: relative
+    &:hover
+        .news-block-img
+            &::before
+                border-width: 5px    
+    .news-block-img
+        height: 0
+        padding: 0 0 63.17%
+        margin: 0 0 25px
+        background-size: cover
+        background-position: center
+        position: relative
+        @media (max-width: $layout-breakpoint-md)
+            padding: 0 0 62.5%
+        &::before
+            content: ""
+            position: absolute
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+            border: 0px solid $brandWhite
+            -webkit-transition: all 0.2s
+            transition: all 0.2s
+    label
+        @media (max-width: $layout-breakpoint-md)
+            margin: 6px 0 7px
+            float: left
+            line-height: normal 
+            vertical-align: top
+            width: 100% 
+        img
+            display: inline-block
+            vertical-align: middle
+            margin-right: 10px  
+    h4,.h4
+        @media (max-width: $layout-breakpoint-xl)
+            font-size: 24px
+        @media (max-width: $layout-breakpoint-md)
+            margin-top: 9px
+        @media (max-width: $layout-breakpoint-xs)
+            font-size: 28px
+            float: left
+            margin: 0
+        a
+            &:hover
+                color: $cinnabar
+.news-listing-section
+    padding: 0 0 50px
+    .row
+        > div
+            margin: 0 0 37px
+            @media (max-width: $layout-breakpoint-md)
+                margin: 0 0 49px
+            &:first-child
+                display: none
+                @media (max-width: $layout-breakpoint-lg)
+                    display: block

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="58" viewBox="0 0 48 58">
+  <g id="Icon" transform="translate(1 1)">
+    <path id="Sheet_02" d="M8.461,50H0V0H40V8.692" fill="none" stroke="#050a23" stroke-miterlimit="10" stroke-width="2"/>
+    <g id="Sheet_01" transform="translate(7 7)" fill="none" stroke-miterlimit="10">
+      <path d="M0,0H40V38L28,50H0Z" stroke="none"/>
+      <path d="M 2 2 L 2 48 L 27.17157745361328 48 L 38 37.17157745361328 L 38 2 L 2 2 M 0 0 L 40 0 L 40 38 L 28 50 L 0 50 L 0 0 Z" stroke="none" fill="#050a23"/>
+    </g>
+    <path id="Corner" d="M0,13V0H13" transform="translate(34 44)" fill="none" stroke="#050a23" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Line_04" d="M0,.5H10" transform="translate(15 38.5)" fill="none" stroke="#050a23" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Line_03" d="M0,.5H24" transform="translate(15 31.5)" fill="none" stroke="#050a23" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Line_02" d="M0,.5H24" transform="translate(15 24.5)" fill="none" stroke="#050a23" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Line_01" d="M0,.5H24" transform="translate(15 17.5)" fill="none" stroke="#050a23" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

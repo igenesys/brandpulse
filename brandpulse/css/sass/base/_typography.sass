@@ -1,0 +1,171 @@
+// Define styles for headers, common text elements
+// establish re-usable classes that can be used to apply common styles
+body
+    color: $brandBlack
+    font-family: $default-font
+    outline: 0px !important
+
+// inside site main, default font size is bumped to 20
+// this is intentionally not done on the body tag to preserve the rem base of 16
+main
+    font-size: 1.25rem
+
+a
+    outline: 0px !important
+
+h1, h2, h3, h4, h5, h6 
+    font-weight: normal
+    margin: 0 0 20px 0
+    line-height: normal 
+.h1, .h2, .h3, .h4, .h5, .h6 
+    display: block
+    font-weight: normal
+    margin: 0 0 20px 0
+h1,body .wpcf7 form.sent .wpcf7-response-output,.h1
+    font-size: 36px
+    font-family: $default-font-light 
+    line-height: 1.3em
+    // @media (max-width: $layout-breakpoint-xxl) 
+    //     font-size: 34px 
+    
+    // @media (max-width: $layout-breakpoint-xl) 
+    //     font-size: 32px 
+    
+    // @media (max-width: $layout-breakpoint-lg) 
+    //     font-size: 30px
+    
+    @media (max-width: $layout-breakpoint-md) 
+        line-height: 1.25em
+    
+
+h2,.h2
+    font-size: 34px
+    @media (max-width: $layout-breakpoint-xxl) 
+        font-size: 32px
+    
+    @media (max-width: $layout-breakpoint-xl) 
+        font-size: 30px
+    
+    @media (max-width: $layout-breakpoint-lg) 
+        font-size: 28px
+    
+    @media (max-width: $layout-breakpoint-md) 
+        font-size: 26px
+    
+    @media (max-width: $layout-breakpoint-sm) 
+        font-size: 24px
+    
+    @media (max-width: $layout-breakpoint-xs) 
+        font-size: 22px
+    
+
+h3,.h3
+    font-size: 30px
+    @media (max-width: $layout-breakpoint-xxl) 
+        font-size: 28px
+    
+    @media (max-width: $layout-breakpoint-xl) 
+        font-size: 26px
+    
+    @media (max-width: $layout-breakpoint-lg) 
+        font-size: 24px
+    
+    @media (max-width: $layout-breakpoint-md) 
+        font-size: 22px
+    
+    @media (max-width: $layout-breakpoint-sm) 
+        font-size: 20px
+    
+
+h4,.h4
+    font-size: 28px
+    font-family: $default-font-light
+    line-height: 1.24em
+    // @media (max-width: $layout-breakpoint-xxl) 
+    //     font-size: 24px
+    
+    @media (max-width: $layout-breakpoint-xl) 
+        font-size: 24px
+    
+    // @media (max-width: $layout-breakpoint-lg) 
+    //     font-size: 20px
+    
+    @media (max-width: $layout-breakpoint-md) 
+        font-size: 28px
+    
+
+h5,.h5
+    font-size: 22px
+    @media (max-width: $layout-breakpoint-xxl) 
+        font-size: 20px
+    
+    @media (max-width: $layout-breakpoint-xl) 
+        font-size: 18px
+    
+    @media (max-width: $layout-breakpoint-lg) 
+        font-size: 16px
+    
+    @media (max-width: $layout-breakpoint-md) 
+        font-size: 15px
+    
+
+h6,.h6
+    font-size: 20px
+    @media (max-width: $layout-breakpoint-xxl) 
+        font-size: 18px
+    
+    @media (max-width: $layout-breakpoint-xl) 
+        font-size: 16px
+    
+    @media (max-width: $layout-breakpoint-lg) 
+        font-size: 15px
+    
+    @media (max-width: $layout-breakpoint-md) 
+        font-size: 14px
+    
+
+p 
+    margin: 0 0 19px
+    @media (max-width: $layout-breakpoint-vs)
+        letter-spacing: -0.025em
+    strong
+        font-family: $default-font-semibold
+    a
+        text-decoration: underline
+        outline: 0px !important
+
+sup 
+    font-size: 0.6em
+
+em,i
+    font-family: $default-font-italic
+    font-style: normal
+
+strong,b
+    font-family: $default-font-bold
+    font-weight: normal
+
+// Gutenberg font styles for headline
+.is-style-large-headline
+    color: $brandBlack
+
+
+.is-style-intro-copy
+    font-family: $default-font
+    font-size: 1.5rem
+    line-height: 1.33
+
+
+// common text styles
+.marketing-headline
+    letter-spacing: 2px
+    line-height: 1.5
+
+.supercap
+    letter-spacing: 2px
+    line-height: 1.5
+
+.intro-text
+    font-family: $default-font
+    font-size: 1.5rem
+    line-height: 1.33

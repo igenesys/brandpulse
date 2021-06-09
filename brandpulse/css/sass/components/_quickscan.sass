@@ -1,0 +1,94 @@
+.quickscan-pattern
+    position: absolute
+    top: 62px
+    left: -87px
+    z-index: 1
+    width: 360px
+    @media (max-width: $layout-breakpoint-sm)
+        top: 39px
+        left: -61px
+        z-index: 1
+        width: 253px
+.quickscan-main
+    position: relative
+    margin-bottom: 99px
+    &:before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 275px
+        background: $black-pearl
+.quickscan-section-inner-cover
+    position: relative
+    padding: 150px 0 0
+    @media (max-width: $layout-breakpoint-xl)
+        padding: 100px 0 0
+.quickscan-section-inner
+    padding: 86px 100px 73px
+    border-radius: 0 0 20px 20px
+    position: relative
+    z-index: 2
+    @media (max-width: $layout-breakpoint-xl)
+        padding: 70px 70px 70px
+    @media (max-width: $layout-breakpoint-md)
+        padding: 47px 20px 47px
+    .col-2
+        @media (max-width: $layout-breakpoint-lg)
+            width: 100%
+    label
+        display: block
+        padding: 0 0 7px
+        @media (max-width: $layout-breakpoint-md)
+            padding: 0 0 6px
+    h1,.h1
+        margin: 0 0 19px
+        @media (max-width: $layout-breakpoint-md)
+            margin: 0 0 21px
+            line-height: 1.24em
+    p
+        margin: 0 0 23px
+    .quickscan-icon-caps
+        text-align: center
+        padding: 11px 0 20px
+        @media (max-width: $layout-breakpoint-sm)
+            padding: 24px 0 20px
+        .row
+            margin: 0
+            @media (max-width: $layout-breakpoint-sm)
+                justify-content: center
+            > div
+                padding: 0
+                @media (max-width: $layout-breakpoint-sm)
+                    justify-content: center
+                    width: 50%
+                    margin-bottom: 15px;
+        span
+            display: inline-block
+            width: 100%
+            min-height: 74px
+        label   
+            line-height: 17px
+            display: block
+            width: 100%
+.quickscan-form
+    float: right
+    max-width: 380px
+    width: 100%
+    padding: 138px 0 0
+    @media (max-width: $layout-breakpoint-lg)
+        padding: 30px 0 0
+        max-width: 100%
+    @media (max-width: $layout-breakpoint-md)
+        padding: 47px 0 0
+    .gform_wrapper 
+        form 
+            .gform_footer
+                padding: 22px 0 0
+                @media (max-width: $layout-breakpoint-md)
+                    padding: 27px 0 0
+                .btn
+                    @media (max-width: $layout-breakpoint-sm)
+                        padding: 0px 6px
+                        width: 100%

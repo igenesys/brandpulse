@@ -1,0 +1,295 @@
+.home
+    .home-cases-section
+        &.cases-list-section
+            padding: 0 0 50px
+            @media (max-width: $layout-breakpoint-xs)
+                padding: 0 0 56px
+label
+    text-transform: uppercase
+    font-size: 12px
+    font-family: $default-font-bold
+    letter-spacing: 0.33em
+.cases-filter
+    padding: 47px 0 96px
+    @media (max-width: $layout-breakpoint-md)
+        padding: 49px 0px
+    .cases-filter-label
+        display: flex
+        p
+            margin: 0
+            text-transform: uppercase
+            font-size: 12px
+            letter-spacing: 0.33em
+            @media (max-width: $layout-breakpoint-md)
+                letter-spacing: 0.31em
+                width: 111px 
+                line-height: 1.5em
+        select
+            border: 0
+            background: none
+            text-transform: uppercase
+            font-size: 12px
+            letter-spacing: 0.33em
+            font-family: $default-font-bold
+            margin-left: -3px
+            padding: 0
+            width: auto
+            color: $brandBlack
+            height: auto
+            top: -1px
+            position: relative
+            padding-right: 24px!important
+            @media (max-width: $layout-breakpoint-md)
+                position: relative
+                left: -6px
+                top: 8px
+        #width_tmp_select 
+            display : none
+            
+.cases-list-section
+    .col-1
+        .col-2-5
+            @media (max-width: $layout-breakpoint-lg)
+                width: 56.66%
+            @media (max-width: $layout-breakpoint-md)
+                width: 100%
+        .col-3
+            @media (max-width: $layout-breakpoint-lg)
+                width: 43.3333333%
+            @media (max-width: $layout-breakpoint-md)
+                width: 100%
+    h1,.h1
+        margin: 0 0 39px
+        @media (max-width: $layout-breakpoint-xs)
+            margin: 0 0 31px
+            br
+                display: none
+    .container
+        > .row
+            > div
+                margin-bottom: 100px
+                @media (max-width: $layout-breakpoint-xl)
+                    margin-bottom: 60px
+                @media (max-width: $layout-breakpoint-md)
+                    margin-bottom: 50px
+.case-list-block
+    position: relative
+    &:hover
+        .btn
+            background: none
+            color: $cinnabar
+            &.btn-border
+                background: $cinnabar
+                color: $brandWhite
+        .case-list-img
+            &:before
+                border: 5px solid  $brandWhite
+    .case-list-img
+        width: 100%
+        padding: 0
+        height: 390px
+        background-size: cover
+        background-position: center center
+        position: relative
+        @media (max-width: $layout-breakpoint-lg)
+            height: 310px
+        @media (max-width: $layout-breakpoint-md)
+            height: 510px
+        @media (max-width: $layout-breakpoint-sm)
+            height: 390px
+        @media (max-width: $layout-breakpoint-xs)
+            height: 350px
+        @media (max-width: $layout-breakpoint-vs)
+            height: 320px
+        &:before
+            content: ""
+            position: absolute
+            left: 0
+            right: 0
+            top: 0
+            bottom: 0
+            border: 0px solid $brandWhite
+            transition: all 0.2s
+    .case-list-caps
+        padding-top: 27px
+        label
+            margin: 0 0 2px
+            display: block
+            @media (max-width: $layout-breakpoint-xs)
+                margin: 0 0 2px
+        h4,.h4
+            margin: 0 0 30px
+            @media (max-width: $layout-breakpoint-xs)
+                margin: 0 0 25px
+        .btn
+            @media (max-width: $layout-breakpoint-xs)
+                margin-top: 5px;
+.cases-two-row-box
+    height: 100%
+    padding: 47px
+    padding-left: 50px
+    padding-right: 50px
+    @media (max-width: $layout-breakpoint-xl)
+        padding: 40px
+    @media (max-width: $layout-breakpoint-lg)
+        padding: 35px
+    @media (max-width: $layout-breakpoint-md)
+        padding: 27px 30px 30px 30px
+        margin-top: 50px
+        height: auto
+    .case-list-block
+        border-bottom: 2px solid $black-pearl
+        padding-bottom: 50px
+        margin-bottom: 43px
+        @media (max-width: $layout-breakpoint-md)
+            padding-bottom: 37px
+            margin-bottom: 26px
+        &:last-child
+            padding-bottom: 0
+            margin-bottom: 0
+            border-bottom: 0
+        &:hover
+            .btn
+                &.btn-border
+                    background: $cinnabar
+                    color: $brandWhite
+                    &.btn-border-blue
+                        background: $brandBlack
+                        color: $brandWhite
+    .case-list-caps
+        padding: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+.services-inner-form 
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    visibility: hidden
+    opacity: 0
+    z-index: 99999
+    color: $brandWhite
+    background: rgba(5,10,35,0.3)
+    transition: all 0.5s
+    overflow: hidden
+    .register-form 
+        transform: scale(1)
+    
+    &.open-service-form
+        top: 0
+        bottom: 0
+        visibility: visible
+        opacity: 1
+        .menu-inner
+            height: auto
+            overflow: visible
+            &::before
+                transform: scale(1)
+                transition: all 0.5s
+            
+        
+        .register-form 
+            transform: scale(1)
+            &:before,&:after
+                transform: scale(1)
+            
+        
+     
+    .register-form 
+        &:before,&:after
+            transform: scale(0.6)
+        
+    
+    .menu-inner
+        height: 0
+        overflow: hidden
+        &::before
+            transform: scale(0.3)
+            transition: all 0.5s
+        
+    
+    .d-table-cell
+        text-align: center
+    
+    .register-form
+        visibility: visible
+        opacity: 1
+        position: relative
+        @media (max-width: $layout-breakpoint-lg) 
+            margin-top: -9px
+        
+        @media (max-width: $layout-breakpoint-sm) 
+            margin-top: 70px
+        
+        h1,.h1
+            max-width: 250px 
+            @media (max-width: $layout-breakpoint-lg)  
+                margin: 0 0 21px
+            
+        
+    
+
+.open-service-popup,.open-service-popup body,.open-popup-html
+    overflow: hidden
+
+
+
+
+
+
+
+.menu-inner
+    position: relative
+    @media (max-width: $layout-breakpoint-lg)
+        display: flex
+        align-items: center
+    
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0
+        margin: auto
+        background: $black-pearl
+        height: 81.95vw
+        width: 81.95vw
+        border-radius: 50%
+        box-shadow: 0 0 80px rgba(0,0,0,0.5)
+        @media (max-width: $layout-breakpoint-lg)
+            height: 90vw
+            width: 90vw
+        
+        @media (max-width: $layout-breakpoint-md)
+            height: 110vw
+            width: 110vw
+            left: -5vw
+        
+        @media (max-width: $layout-breakpoint-sm)
+            height: 175vw
+            width: 160vw
+            left: -29vw
+    &::after
+        display: none
+        @media (max-width: $layout-breakpoint-md) 
+            display: block
+        
+        @media (max-width: $layout-breakpoint-sm) 
+            display: block
+            bottom: -21vw
+            top: auto
+        
+    

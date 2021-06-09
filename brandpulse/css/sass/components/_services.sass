@@ -1,0 +1,117 @@
+.services-list-section
+    margin-top: -50px
+    position: relative
+    @media (max-width: $layout-breakpoint-md)
+        margin-top: -52px
+        margin-bottom: 2px
+    &:before
+        content: ""
+        position: absolute
+        left: 0
+        right: 0
+        top: 0
+        background: $black-pearl
+        bottom: 70px
+        @media (max-width: $layout-breakpoint-xs)
+            bottom: 50px
+    .row
+        @media (max-width: $layout-breakpoint-sm)
+            margin-left: -5px
+            margin-right: -5px
+    .col-4
+        @media (max-width: $layout-breakpoint-md)
+            width: 50%
+        @media (max-width: $layout-breakpoint-sm)
+            padding: 0px 5px
+.services-block
+    text-align: center
+    height: 280px
+    width: 100%
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    background: $brandWhite
+    box-shadow: 0 0 80px rgba(0,0,0,0.25)
+    transition: all 0.5s
+    @media (max-width: $layout-breakpoint-xxl)
+        height: 270px
+    @media (max-width: $layout-breakpoint-xl)
+        height: 231px
+    @media (max-width: $layout-breakpoint-lg)
+        height: 167px
+        margin-bottom: 20px
+    @media (max-width: $layout-breakpoint-md)
+        height: 290px
+    @media (max-width: $layout-breakpoint-sm)
+        height: 215px
+        margin-bottom: 10px
+    @media (max-width: $layout-breakpoint-xs)
+        height: 162.5px
+    @media (max-width: $layout-breakpoint-xs)
+        height: 155px
+    &.pink-bg
+        &:hover
+            background: $brandWhite
+            color: $black-pearl
+            .services-block-icon
+                svg
+                    path
+                        fill: $cinnabar
+            .services-link-arrow
+                svg
+                    path
+                        stroke: $black-pearl
+    &:hover,&.pink-bg
+        background: $cinnabar
+        color: $brandWhite
+        .services-block-icon
+            svg
+                path
+                    fill: $brandWhite
+        .services-link-arrow
+            svg
+                path
+                    stroke: $brandWhite
+    .services-block-icon
+        height: 20px
+        width: 20px
+        display: inline-block
+        vertical-align: top
+        position: absolute
+        left: 0
+        right: 0
+        top: 30px
+        margin: 0 auto
+        @media (max-width: $layout-breakpoint-sm)
+            width: 14px
+            height: 14px
+            top: 12px
+            svg
+                @media (max-width: $layout-breakpoint-sm)
+                    width: 14px
+                    height: 14px
+    .services-name
+        padding-top: 31px
+        @media (max-width: $layout-breakpoint-sm)
+            padding-top: 32px
+    h4,.h4
+        text-transform: uppercase
+        font-size: 24px
+        font-family: $brandpulsebold
+        transition: all 0.05s
+        @media (max-width: $layout-breakpoint-lg)
+            font-size: 18px
+        @media (max-width: $layout-breakpoint-sm)
+            margin-bottom: 11px
+    .services-link-arrow
+        svg
+            display: inline-block
+            vertical-align: top
+    svg
+        path
+            transition: all 0.5s
+.services-section-2
+    padding: 100px 0 125px
+    @media (max-width: $layout-breakpoint-sm)
+        padding: 38px 0 81px

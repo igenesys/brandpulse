@@ -1,0 +1,124 @@
+.nb-section
+    &.dark-blue-bg
+        position: relative
+        .container-580
+            position: relative
+        .nb-pattern
+            position: absolute
+            top: -88px
+            left: -86px
+            @media (max-width: $layout-breakpoint-md)
+                top: -61px
+                left: -64px
+                width: 257px
+        .nb-section-inner
+            padding: 150px 0 100px
+            position: relative
+            @media (max-width: $layout-breakpoint-md)
+                padding: 100px 0 104px
+            &::before
+                content: ""
+                position: absolute
+                bottom: 0
+                left: 0
+                right: 0
+                background: $brandWhite
+                height: 52.1%
+                @media (max-width: $layout-breakpoint-md)
+                    height: 48.7%
+.bn-block
+    padding-top: 88px
+    padding-bottom: 100px
+    padding-left: 100px
+    padding-right: 100px
+    background: $light-gray
+    color: $black-pearl
+    position: relative
+    border-radius: 0 0 20px 20px
+    @media (max-width: $layout-breakpoint-md)
+        padding: 47px 20px
+    .register-form
+        &::before, &::after
+            display: none
+    h1,.h1  
+        @media (max-width: $layout-breakpoint-md)
+            margin: 0 0 21px 0
+    p
+        margin: 0 0 23px
+    .bn-form
+        padding: 26px 0 0
+        @media (max-width: $layout-breakpoint-md)
+            padding: 24px 0 0
+        .register-form
+            .gform_wrapper
+                form
+                    .gform_body
+                        ul
+                            li
+                                .ginput_container
+                                    input:not([type=checkbox]),textarea,select
+                                        color: $black-pearl
+                                        &::placeholder
+                                            color: $black-pearl
+                                            opacity: 1
+            @media (max-width: $layout-breakpoint-md)
+                width: 100%
+            .register-form-inner
+                @media (max-width: $layout-breakpoint-xl)
+                    padding: 0
+                    width: 100%
+    label
+        display: block
+        padding: 0 0 5px
+    .btn
+        border-width: 2px
+    .padding-top-0
+        padding-top: 0!important
+    .bn-thanks-btns
+        padding-top: 10px
+        width: 360px
+        max-width: 100%
+        @media (max-width: $layout-breakpoint-md)
+            padding-top: 2px
+        .btn
+            margin: 0 0 13px
+            width: 150px
+            &:last-child
+                margin-bottom: 0
+    .btn
+        &.btn-border
+            margin: 0 0 13px
+            width: 182px
+    .gform_wrapper
+        form
+            .gform_body
+                ul
+                    li
+                        .ginput_container
+                            input, textarea, select
+                                color: $black-pearl
+                                &::placeholder
+                                    color: $black-pearl
+                                    opacity: 1
+                            &.ginput_container_checkbox
+                                input
+                                    width: auto
+                                    height: auto
+                                    position: relative
+                                    top: 2px
+                        .ginput_container_checkbox + label
+                            text-transform: none
+                            letter-spacing: 0
+                            padding: 0
+                            font-family: $default-font
+                            font-size: 15px
+                        &.check-box-design
+                            .ginput_container_checkbox
+                                float: left
+                                margin-right: 14px!important
+
+            .gform_footer
+                .btn
+                    &:hover
+                        color: $cinnabar
+

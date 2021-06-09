@@ -1,0 +1,69 @@
+.content-page-main-inner
+    padding: 97px 0 134px
+    @media (max-width: $layout-breakpoint-md)
+        padding: 68px 0 84px
+    ol
+        ol
+            list-style-type: lower-alpha
+            li
+                list-style: inherit
+.content-page-title-block
+    border-bottom: 2px solid $cinnabar
+    padding: 0 0 29px
+    margin: 0 0 70px
+    @media (max-width: $layout-breakpoint-md)
+        padding: 0 0 19px
+        margin: 0 0 64px
+    label
+        display: block
+        padding: 0 0 2px
+        @media (max-width: $layout-breakpoint-md)
+            padding: 0 0 5px
+    h1,.h1
+        margin: 0
+
+.contact-section-mid,.quickscan-form
+    .gform_wrapper
+        form
+            .gform_body
+                ul
+                    li
+                        .ginput_container
+                            input, textarea, select
+                                color: $black-pearl!important
+                                &::placeholder
+                                    color: $black-pearl!important
+                                    opacity: 1
+.content-page-caps-block
+    h4,.h4
+        @media (max-width: $layout-breakpoint-md)
+            margin: 0 0 24px 0
+.label-with-caps-ol
+    ol
+        counter-reset: my-awesome-counter
+        padding: 0
+    li
+        display: flex
+        counter-increment: my-awesome-counter
+        position: relative
+        padding-left: 1.9em!important
+        @media (max-width: $layout-breakpoint-md)
+            flex-wrap: wrap
+        &::before
+            content: counter(my-awesome-counter) ". "
+            position: absolute
+            left: 0
+        .count
+            width: 29px
+        .label
+            width: 140px
+            font-family: $default-font-semibold
+            @media (max-width: $layout-breakpoint-md)
+                width: 100%
+        .caps
+            width: calc(100% - 140px)
+            @media (max-width: $layout-breakpoint-md)
+                width: 100%
+
+ol:not([class]) li
+    padding-left: 0.9em

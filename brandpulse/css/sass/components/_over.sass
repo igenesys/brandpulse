@@ -1,0 +1,319 @@
+.over-top-two-col
+    position: relative
+    &.dark-blue-bg
+        background: none
+        &::before
+            content: ""
+            position: absolute
+            top: 0
+            right: 0
+            left: 0
+            bottom: 50px
+            background: $black-pearl
+            @media (max-width: $layout-breakpoint-lg)
+                bottom: 0
+    .over-top-two-col-img
+        position: absolute
+        width: 49.4%
+        left: 0
+        @media (max-width: $layout-breakpoint-xl)
+            width: 51.4%
+        @media (max-width: $layout-breakpoint-lg)
+            width: 94.7%
+.over-top-tow-col-caps
+    padding-top: 0px
+    padding-left: 100px
+    padding-right: 100px
+    padding-bottom: 81px
+    @media (max-width: $layout-breakpoint-xl)
+        padding-left: 50px
+        padding-right: 50px
+    @media (max-width: $layout-breakpoint-lg)
+        width: 100%
+        padding: 50px 0 50px 0
+    @media (max-width: $layout-breakpoint-md)
+        padding: 51px 0 77px 0px
+    h4,.h4
+        margin: 0 0 24px
+        @media (max-width: $layout-breakpoint-md)
+            margin: 0 0 18px
+    p
+        margin: 0 0 23px
+        @media (max-width: $layout-breakpoint-md)
+            letter-spacing: -0.02em
+.over-top-two-col-inner
+    padding: 100px 0 0
+    position: relative
+    @media (max-width: $layout-breakpoint-lg)
+        padding: 48px 0 0
+    .col-6
+        display: flex
+        align-items: center
+        @media (max-width: $layout-breakpoint-lg)
+            width: 100%
+            &:last-child
+                height: auto !important
+        &:nth-child(1)
+            align-items: flex-start
+.over-ons-candidate
+    width: 100%
+    padding: 0px 0px 50px 0px
+    padding-top: 179px
+    padding-bottom: 121px
+    @media (max-width: $layout-breakpoint-xl)
+        padding-top: 179px
+        padding-bottom: 121px
+    @media (max-width: $layout-breakpoint-lg)
+        padding-top: 88px
+        padding-bottom: 100px
+    @media (max-width: $layout-breakpoint-md)
+        padding-top: 64px
+        padding-bottom: 121px
+    .over-ons-candidate-row
+        display: flex
+        flex-wrap: wrap
+        padding-bottom: 30px
+        margin: 0px -8px
+        @media (max-width: $layout-breakpoint-sm)
+            padding-bottom: 0px
+            display: none
+        .over-ons-block
+            width: 25%
+            padding: 0px 9.5px
+            text-align: center
+            position: relative
+            @media (max-width: $layout-breakpoint-lg)
+                padding: 0px
+            @media (max-width: $layout-breakpoint-md)
+                width: 50%
+                padding: 0
+                padding-bottom: 10px
+                &:nth-child(even)
+                    position: relative
+                    top: 50px
+                    @media (max-width: $layout-breakpoint-md)
+                        top: 0
+            &.over-active
+                @media (max-width: $layout-breakpoint-sm)
+                    width: 83.335%
+                    position: relative
+                &:nth-child(even)
+                    @media (max-width: $layout-breakpoint-sm)
+                        left: 0
+                &:nth-child(odd)
+                    @media (max-width: $layout-breakpoint-sm)
+                        left: 8.33%
+            &:nth-child(odd)
+                &.over-active-pre
+                    @media (max-width: $layout-breakpoint-sm)
+                        width: 8%
+                        display: flex
+                        align-items: flex-start
+                        justify-content: flex-end
+                        flex-wrap: wrap
+                        pointer-events: none
+                        .over-candcontent   
+                            display: none
+            &:nth-child(even)
+                &.over-active-nxt
+                    @media (max-width: $layout-breakpoint-sm)
+                        width: 8%
+                        display: flex
+                        align-items: flex-start
+                        flex-wrap: wrap
+                        left: 10%
+                        pointer-events: none
+                        .over-candcontent   
+                            display: none
+            .over-candimg
+                width: 100%
+                display: flex
+                align-items: flex-end
+                justify-content: center
+                margin: 0
+                position: relative
+                z-index: 1
+                @media (max-width: $layout-breakpoint-md)
+                    width: auto
+                    margin: 20px -6px 0
+                img
+                    width: auto
+                    max-height: 200px
+                    @media (max-width: $layout-breakpoint-lg)
+                        max-height: 160px
+                    @media (max-width: $layout-breakpoint-md)
+                        max-height: unset
+                        max-width: 180px
+            .over-candcontent
+                width: 100%
+                @media (max-width: $layout-breakpoint-md)
+                    padding: 0px 5px
+                label
+                    display: inline-block
+                    vertical-align: top
+                    line-height: normal
+                    float: left
+                    width: 100%
+                p
+                    font-size: 15px
+                    letter-spacing: 0px
+                    margin: 0
+            .team-caps-block
+                display: none
+                position: relative
+                top: -141px
+                @media (max-width: $layout-breakpoint-lg)
+                    top: -121px
+                @media (max-width: $layout-breakpoint-md)
+                    top: -132px
+                .team-caps-block-inner
+                    background: $light-gray
+                    vertical-align: top
+                    text-align: left
+                    border-radius: 0 0 20px 20px
+                    padding: 95px 30px 5px
+                    margin: 0 0 -141px
+                    transition: all 0.5s
+                    display: inline-block
+                    vertical-align: top
+                    @media (max-width: $layout-breakpoint-xl)
+                        padding: 95px 15px 5px
+                    @media (max-width: $layout-breakpoint-lg)
+                        padding: 75px 15px 5px
+                        font-size: 13px
+                        line-height: 1.5em
+                    @media (max-width: $layout-breakpoint-md)
+                        padding: 86px 15px 5px
+                    @media (max-width: $layout-breakpoint-sm)
+                        padding: 84px 30px 5px
+                        font-size: 15px
+                        line-height: 24px
+                    label
+                        text-align: center
+                        display: inline-block
+                        width: 100%
+                        margin: 0 0 12px
+                        @media (max-width: $layout-breakpoint-lg)
+                            margin-top: 4px
+            .register-form-cover
+                position: fixed
+                top: 50%
+                bottom: 50%
+                left: 0
+                right: 0
+                text-align: center
+                -webkit-transition: all 0.5s
+                -o-transition: all 0.5s
+                transition: all 0.5s
+                opacity: 0
+                visibility: hidden
+                z-index: 9
+                .register-form
+                    h1,.h1
+                        max-width: 260px
+            &.open-register
+                .register-form-cover
+                    .register-form
+                        opacity: 1 !important
+                        visibility: visible !important
+                        position: relative !important
+        &.over-ons-candidate-mobile-row
+            display: none
+            @media (max-width: $layout-breakpoint-sm)
+                display: flex
+                flex-wrap: wrap
+
+.over-section-img
+    position: relative
+    @media (max-width: $layout-breakpoint-md)
+        margin-top: -38px
+    .container
+        @media (max-width: $layout-breakpoint-md)
+            width: 100%
+            padding: 0
+    &:before
+        content: ""
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        height: 176px
+        background: $black-pearl
+    img
+        position: relative
+        z-index: 1
+        @media (max-width: $layout-breakpoint-sm)
+            width: 100%
+        @media (max-width: $layout-breakpoint-xs)
+            height: auto
+        @media (max-width: $layout-breakpoint-vs)
+            height: auto
+.over-caps-secton
+    &.dark-blue-bg
+        position: relative
+        background: none
+        padding: 100px 0 0
+        @media (max-width: $layout-breakpoint-md)
+            padding: 49px 0 0
+        &:before
+            content: ""
+            left: 0
+            right: 0
+            top: 0
+            bottom: 77px
+            background: $black-pearl
+            position: absolute
+        > .container
+            position: relative
+        blockquote
+            color: $black-pearl
+            @media (max-width: $layout-breakpoint-md)
+                margin-top: 64px
+                margin-bottom: 60px
+            &:after
+                @media (max-width: $layout-breakpoint-md)
+                    margin-top: 15px
+    h4,.h4
+        @media (max-width: $layout-breakpoint-md)
+            margin: 0 0 25px 0
+.partners-logos-section
+    padding: 104px 0 23px
+    display: inline-block
+    width: 100%
+    @media (max-width: $layout-breakpoint-md)
+        padding: 50px 0 0px
+    .row
+        margin-bottom: 6px
+        @media (max-width: $layout-breakpoint-md)
+            margin-bottom: 22px
+        > div
+            @media (max-width: $layout-breakpoint-lg)
+                width: 100%
+.brand-logos
+    padding: 0
+    margin-top: -4px
+    margin-bottom: 0
+    display: flex
+    flex-wrap: wrap
+    @media (max-width: $layout-breakpoint-lg)
+        margin-top: 20px
+    @media (max-width: $layout-breakpoint-lg)
+        margin-top: 12px
+    li
+        padding: 0 0 70px
+        margin: 0
+        list-style: none
+        width: 20%
+        @media (max-width: $layout-breakpoint-md)
+            width: 33.333%
+            text-align: center
+            padding: 0 0 31px
+        @media (max-width: $layout-breakpoint-sm)
+            width: 50%
+.over-cases-section
+    padding: 149px 0 50px
+    @media (max-width: $layout-breakpoint-md)
+        padding: 99px 0 50px
+    h1,.h1
+        @media (max-width: $layout-breakpoint-md)
+            margin: 0 0 40px

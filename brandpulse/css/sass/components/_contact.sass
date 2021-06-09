@@ -1,0 +1,218 @@
+.contact-section
+    padding: 0 0 58px
+    @media (max-width: $layout-breakpoint-md)
+        padding: 0 0 51px
+.contact-section-inner
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    @media (max-width: $layout-breakpoint-lg)
+        width: 435px
+        margin: 0 auto
+        max-width: 100%
+        flex-wrap: wrap
+        position: relative
+        justify-content: center
+    @media (max-width: $layout-breakpoint-sm)
+        width: 380px
+    .contact-section-lh
+        background: $light-gray
+        width: 280px
+        position: relative
+        margin-top: -50px
+        border-radius: 0 0 20px 20px
+        @media (max-width: $layout-breakpoint-lg)
+            width: 435px
+            margin: -50px auto 0
+        @media (max-width: $layout-breakpoint-md)
+            margin: -78px auto 20px
+        @media (max-width: $layout-breakpoint-sm)
+            width: 380px
+            max-width: 100%
+        @media (max-width: $layout-breakpoint-vs)
+            width: 100%
+        .contact-section-lh-inner
+            padding: 33px 33px 41px
+            @media (max-width: $layout-breakpoint-lg)
+                width: 100%
+        .contact-ring
+            position: relative
+            left: -3px
+            top: -3px
+            display: block
+            margin: 0 0 19px
+        h4, p,.h4
+            margin: 0 0 24px
+.map-img
+    border-radius: 0 0 20px 20px
+    overflow: hidden
+    display: inline-block
+    vertical-align: top
+    width: 100%
+    img
+        width: 100%
+.contact-section-mid
+    .gform_wrapper
+        form
+            .gform_body
+                ul
+                    li
+                        .ginput_container
+                            input, select, textarea
+                                color: $black-pearl
+                                &::placeholder
+                                    color: $black-pearl
+.fixed
+    .contact-section-rh
+        .register-popup-block
+            @media only screen and (min-width: 1024px)
+                /*position: fixed*/
+                /*bottom: 0*/
+.contact-section-rh
+    width: 280px
+    margin-right: -180px
+    margin-top: -19px
+    position: relative
+    @media (max-width: 1440px)
+        margin-right: -80px
+    @media (max-width: $layout-breakpoint-xxl)
+        margin-right: 0px
+    @media (max-width: $layout-breakpoint-lg)
+        width: 435px
+        max-width: 100%
+        margin: 0 auto
+        position: static
+    @media (max-width: $layout-breakpoint-sm)
+        width: 380px
+    .pin-wrapper
+        @media (max-width: $layout-breakpoint-lg)
+            height: 0!important
+    .register-popup-block
+        border-radius: 0 0 20px 20px
+        box-shadow: 0 0 80px rgba(0, 0, 0, 0.3)
+        position: absolute
+        overflow: hidden
+        width: 100%
+        z-index: 99
+        @media only screen and (min-width: 1024px)
+            max-width: 280px
+        @media (max-width: $layout-breakpoint-lg)
+            top: -183px
+            left: 0
+            margin: auto
+            width: 435px
+        @media (max-width: $layout-breakpoint-md)
+            top: -211px
+        @media (max-width: $layout-breakpoint-sm)
+            width: 380px
+            max-width: 100%
+        @media (max-width: $layout-breakpoint-vs)
+            width: 100%
+        &.hide-popup
+            opacity: 0 
+            visibility: hidden
+        .close-icon
+            position: absolute
+            height: 16px
+            width: 16px
+            right: 10px
+            top: 10px
+            z-index: 9
+            &::before,&::after
+                content: ""
+                position: absolute
+                width: 18px
+                height: 2px
+                background: $brandWhite
+                margin: auto
+                top: 0
+                bottom: 0
+                left: 0
+                right: 0
+            &::before
+                transform: rotate(45deg)
+            &::after
+                transform: rotate(-45deg)
+    .register-block-img
+        position: relative
+        color: $brandWhite
+        @media (max-width: $layout-breakpoint-lg)
+            width: 100%
+            height: 170px
+        @media (max-width: $layout-breakpoint-md)
+            height: 190px
+        @media (max-width: $layout-breakpoint-sm)
+            height: 160px
+        @media (max-width: $layout-breakpoint-vs)
+            height: 120px
+        img
+            @media (max-width: $layout-breakpoint-lg)
+                width: 100%
+                height: 100%
+                object-fit: cover
+        span
+            position: absolute
+            bottom: 70px
+            left: 45px
+            font-size: 36px
+            font-family: $brandpulsebold
+            line-height: 1em
+            text-transform: uppercase
+            @media (max-width: $layout-breakpoint-lg)
+                bottom: 55px
+                left: 75px
+            @media (max-width: $layout-breakpoint-md)
+                bottom: 60px
+                left: 80px
+            @media (max-width: $layout-breakpoint-sm)
+                bottom: 50px
+                left: 70px
+            @media (max-width: $layout-breakpoint-vs)
+                bottom: 27px
+                left: 45px
+    .register-block-caps
+        padding: 40px
+        background-color: $brandWhite
+        @media (max-width: $layout-breakpoint-md)
+            padding: 30px
+        p
+            margin: 0 0 24px
+.contact-section-mid
+    margin: 89px 0 0 20px
+    @media (max-width: $layout-breakpoint-xxl)
+        margin: 89px 0 0 0px
+    @media (max-width: $layout-breakpoint-lg)
+        width: 435px
+        margin: 60px auto 0px
+    @media (max-width: $layout-breakpoint-md)
+        width: 480px
+        margin: 26px auto 0px
+    @media (max-width: $layout-breakpoint-sm)
+        width: 380px
+        max-width: 100%
+    @media (max-width: $layout-breakpoint-vs)
+        width: 100%
+    .register-form
+        @media (max-width: $layout-breakpoint-lg)
+            width: 100%
+        &::before, &::after
+            display: none
+        .register-form-inner
+            @media (max-width: $layout-breakpoint-lg)
+                width: 100%
+            @media (max-width: $layout-breakpoint-md)
+                padding: 0
+    .btn
+        padding: 0 30px
+.contact-form-thankyou
+    width: 322px
+    margin: 6px 0 0 -59px
+    line-height: 1.38em
+    @media (max-width: $layout-breakpoint-xl)
+        margin: 6px 0 0 0px
+    p
+        margin: 0 0 20px
+    .btn
+        border-width: 2px
+        margin-top: 6px
+

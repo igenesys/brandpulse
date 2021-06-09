@@ -1,0 +1,59 @@
+blockquote
+    font-family: $default-font-light
+    border: none
+    line-height: 1.16
+    text-align: center
+    position: relative
+    background: $light-gray
+    padding: 24px 100px 4px
+    margin-top: 63px
+    margin-bottom: 62px
+    margin-left: 0
+    margin-right: 0
+    @media (max-width: $layout-breakpoint-md)
+        margin-top: 90px
+        margin-bottom: 68px
+        line-height: 1.5
+        padding: 24px 20px 11px
+    h1,.h1
+        margin: 0 0 26px!important
+        line-height: 1.25em
+        @media (max-width: $layout-breakpoint-md)
+            margin: 0 0 10px!important
+            line-height: 1.24em
+    label
+        display: block
+        text-transform: none
+        letter-spacing: 0
+        font-size: 15px
+        font-family: $default-font
+            
+    &:before
+        content: '“'
+        font-family: $default-font-light
+        font-size: 36px
+        display: block
+        @media (max-width: $layout-breakpoint-xxl) 
+            font-size: 34px
+        @media (max-width: $layout-breakpoint-xl) 
+            font-size: 32px
+        @media (max-width: $layout-breakpoint-lg) 
+            font-size: 30px
+        @media (max-width: $layout-breakpoint-md) 
+            font-size: 28px
+    &:after
+        content: '”'
+        font-family: $default-font-light
+        font-size: 36px
+        margin-top: 27px
+        display: block
+        @media (max-width: $layout-breakpoint-xxl) 
+            font-size: 34px 
+        @media (max-width: $layout-breakpoint-xl) 
+            font-size: 32px
+        @media (max-width: $layout-breakpoint-lg) 
+            font-size: 30px
+        @media (max-width: $layout-breakpoint-md) 
+            font-size: 28px
+            margin-top: 33px
+

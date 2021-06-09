@@ -1,0 +1,141 @@
+.site-footer
+    padding: 88px 0
+    @media (max-width: $layout-breakpoint-xs)    
+        padding: 42px 0px
+.footer-row
+    display: flex
+    flex-wrap: wrap
+    .footer-logo
+        width: 180px
+        margin: 0 0 31px
+    .footer-lh
+        width: 25.4%
+        @media (max-width: $layout-breakpoint-lg)
+            width: 100%
+            padding-bottom: 40px
+        @media (max-width: $layout-breakpoint-xs)
+            padding-bottom: 38px
+    .footer-rh
+        width: 74.6%
+        padding-top: 9px
+        @media (max-width: $layout-breakpoint-lg)
+            width: 100%
+        .footer-menu
+            padding-bottom: 41px
+            border-bottom: 2px solid $brandWhite
+            @media (max-width: $layout-breakpoint-lg)
+                padding-bottom: 0px
+                border-bottom: 0px
+        .footer-menu-ul
+            display: flex
+            justify-content: space-between
+            padding: 0
+            margin: 0
+            @media (max-width: $layout-breakpoint-lg)
+                flex-wrap: wrap
+                justify-content: start
+            li
+                padding: 0
+                margin: 0
+                list-style: none
+                text-transform: uppercase
+                font-family: $default-font-bold
+                letter-spacing: 0.33em
+                font-size: 12px
+                @media (max-width: $layout-breakpoint-lg)
+                    width: 25%
+                    padding-bottom: 13px
+                @media (max-width: $layout-breakpoint-sm)
+                    width: 33.3333%
+                @media (max-width: $layout-breakpoint-xs)
+                    width: 50%
+                a
+                    &:hover
+                        color: $cinnabar
+        .footer-contact-dtl
+            display: flex
+            justify-content: space-between
+            @media (max-width: $layout-breakpoint-lg)
+                flex-wrap: wrap
+                padding-top: 30px
+            .footer-contact-lh
+                width: 53.9%
+                display: flex
+                padding-top: 49px
+                @media (max-width: $layout-breakpoint-lg)
+                    width: 100%
+                    order: 2
+                    flex-wrap: wrap
+                @media (max-width: $layout-breakpoint-md)
+                    padding-top: 48px
+                > p
+                    width: 50%
+                    @media (max-width: $layout-breakpoint-lg)
+                        width: 100%
+                    @media (max-width: $layout-breakpoint-md)
+                        margin-bottom: 24px
+            .footer-contact-rh
+                width: 43.2%
+                @media (max-width: $layout-breakpoint-lg)
+                    width: 100%
+                    order: 1
+                .register-block
+                    padding: 50px
+                    border-radius: 0 0 20px 20px
+                    @media (max-width: $layout-breakpoint-lg)
+                        width: 350px
+                        max-width: 100%
+                    @media (max-width: $layout-breakpoint-md)
+                        padding: 36px 30px 30px
+                    @media (max-width: $layout-breakpoint-vs)
+                        width: 100%
+                    h4,.h4
+                        margin: 0 0 13px
+                        display: inline-block
+                        @media (max-width: $layout-breakpoint-md)
+                            margin: 0 0 6px
+                    .btn
+                        margin: 5px 0 0
+                        color: $brandWhite
+                        @media (max-width: $layout-breakpoint-md)
+                            margin: 8px 0 0
+                        &:hover 
+                            color: $cinnabar
+.footer-copy-row
+    font-size: 12px
+    display: flex
+    align-items: center
+    margin-top: -15px
+    @media (max-width: $layout-breakpoint-lg)
+        margin-top: 20px
+    @media (max-width: $layout-breakpoint-md)
+        flex-wrap: wrap
+    .footer-copy
+        opacity: 0.5
+        padding: 0 32px 0 0
+        @media (max-width: $layout-breakpoint-xl)
+            padding: 0 25px 0 0
+        @media (max-width: $layout-breakpoint-md)
+            width: 100%
+            padding: 0
+    .footer-privacy-links
+        .footer-privacy-links-ul
+            padding: 0
+            margin: 0
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+            li
+                padding: 0 0 0 41px
+                margin: 0
+                list-style: none
+                @media (max-width: $layout-breakpoint-xl)
+                    padding: 0 0 0 25px
+                @media (max-width: $layout-breakpoint-md)
+                    padding: 0 0 0px 0px
+                    width: 100%
+                a
+                    opacity: 0.5
+                    text-decoration: underline
+                    &:hover
+                        opacity: 1

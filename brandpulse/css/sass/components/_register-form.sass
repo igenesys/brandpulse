@@ -1,0 +1,498 @@
+.register-form
+    display: inline-block
+    z-index: 1
+    text-align: left
+    width: 380px
+    transition: all 0.5s
+    .register-form-inner
+        @media (max-width: $layout-breakpoint-lg)
+            width: 79.75%
+            margin: auto
+        @media (max-width: $layout-breakpoint-xs)
+            width: 100%
+            padding: 0px 20px
+        .register-form-title
+            @media (max-width: $layout-breakpoint-xs)
+                width: 83%
+            @media (max-width: $layout-breakpoint-vs)
+                width: 72%
+    .back-link
+        position: absolute
+        left: -78.9%
+        top: 47%
+        @media (max-width: $layout-breakpoint-xl)
+            left: -65.9%
+        @media (max-width: $layout-breakpoint-md)
+            left: 0
+            top: -50px
+        &.for-desktop
+            @media (max-width: $layout-breakpoint-lg)
+                display: none
+        &.for-mobile
+            display: none
+            @media (max-width: $layout-breakpoint-lg)
+                display: block
+                position: static
+                padding-bottom: 33px
+    .register-form-title
+        h4
+            margin: 0 0 20px
+            @media (max-width: $layout-breakpoint-md)
+                margin: 0 0 22px
+        p
+            width: 103%
+            margin: 0 0 24px
+            @media (max-width: $layout-breakpoint-md)
+                letter-spacing: -0.05em
+        .btn
+            @media (max-width: $layout-breakpoint-md)
+                margin-top: 6px
+    h1,.wpcf7 form.sent .wpcf7-response-output,.h1
+        max-width: 240px
+        width: 100%
+        line-height: 1.22em
+        margin: 0 0 23px
+        @media (max-width: $layout-breakpoint-lg)
+            line-height: 1.3em
+            margin: 0 0 27px
+    .wpcf7 form.sent .wpcf7-response-output
+        max-width: 230px
+    p
+        margin: 0 0 6px
+        @media (max-width: $layout-breakpoint-lg)
+            width: 102%
+            margin: 0 0 11px
+        small
+            font-size: 9px
+            display: block
+            line-height: 1.5em
+        a
+            text-decoration: underline
+            color: $brandWhite
+    &.contact-form
+        width: 547px
+        @media (max-width: $layout-breakpoint-md)
+            width: 100%
+            @media (max-width: $layout-breakpoint-md)
+                max-height: 100vh
+                overflow: auto
+                padding: 50px 0
+                overflow-x: hidden
+        .register-form-block
+            width: 370px
+            @media (max-width: $layout-breakpoint-md)
+                width: 100%
+            > br
+                display: none
+        .back-link
+            left: -183px
+            top: 16.5%
+        .contact-form-lh-caps
+            padding-top: 10px
+            @media (max-width: $layout-breakpoint-md)
+                width: 100%
+                display: flex
+                flex-wrap: wrap
+            .contact-address
+                @media (max-width: $layout-breakpoint-md)
+                    width: 50%
+        .contact-address
+            p
+                margin: 0 0 19px
+    .contact-form-row
+        display: flex
+        justify-content: space-between
+        @media (max-width: $layout-breakpoint-md)
+            flex-wrap: wrap
+    .register-form-caps
+        margin: 0 0 20px
+    .register-form-block
+        position: relative
+body
+    .light-gray-bg
+        .gform_wrapper
+            form
+                .gform_body
+                    ul
+                        li
+                            .ginput_container
+                                input,textarea,select
+                                    color: $black-pearl
+                                    &::placeholder
+                                        color: $black-pearl
+                                        opacity: 1
+    .gform_wrapper
+        margin: 0
+        form
+            .gform_body
+                ul
+                    padding: 0!important
+                    margin: 0!important
+                    li
+                        padding: 0 0 16px!important
+                        margin: 0!important
+                        list-style: none
+                        position: relative
+                        .gfield_label
+                            height: 0
+                            width: 0
+                            display: block
+                            overflow: hidden
+                            visibility: hidden
+                            opacity: 0
+                            margin: 0
+                            padding: 0
+                        .ginput_container
+                            padding: 0!important
+                            margin: 0!important
+                            .gfield_checkbox
+                                padding: 0
+                                margin: 0
+                                padding-top: 0
+                                padding-bottom: 21px
+                                @media (max-width: $layout-breakpoint-md)
+                                    padding-bottom: 25px
+                                li
+                                    padding: 0 0 3px!important
+                                    margin: 0!important
+                                    list-style: none
+                                    position: relative
+                                    @media (max-width: $layout-breakpoint-md)
+                                        padding: 0 0 2px
+                                    input[type="checkbox"]
+                                        position: absolute
+                                        width: 100%
+                                        height: 100%
+                                        opacity: 0
+                                        margin: 0
+                                        cursor: pointer
+                                    input:checked + label
+                                        &::after
+                                            opacity: 1
+                                    input[type="text"]
+                                        color: $black-pearl
+                                        &::placeholder
+                                            color: $black-pearl
+                                            opacity: 1
+                                    &.input-block
+                                        margin: 6px 0 27px
+                                    label
+                                        letter-spacing: 0
+                                        text-transform: none
+                                        font-family: $default-font
+                                        font-size: 15px
+                                        padding: 0 0 0 28px
+                                        min-width: 100%
+                                        font-weight: normal
+                                        &::before
+                                            content: ""
+                                            position: absolute
+                                            height: 13px
+                                            width: 13px
+                                            border: 2px solid $cinnabar
+                                            border-radius: 2px
+                                            top: 6px
+                                            left: 0
+                                        &::after
+                                            content: ""
+                                            position: absolute
+                                            height: 4px
+                                            width: 7px
+                                            border-bottom: 2px solid $cinnabar
+                                            border-left: 2px solid $cinnabar
+                                            left: 3px
+                                            top: 10px
+                                            transform: rotate(-50deg)
+                                            transition: all 0.5s
+                                            opacity: 0
+                                    .btn
+                                        width: 170px
+                                        &:hover
+                                            color: $cinnabar
+                            ul
+                                &.gfield_checkbox
+                                    li
+                                        label
+                                            text-transform: none
+                                            font-family: $default-font
+                            input:not([type=checkbox]),textarea,select
+                                padding: 0 9px!important
+                                margin: 0!important
+                                border: 0!important
+                                border-bottom: 2px solid $cinnabar!important
+                                background: none
+                                width: 100%!important
+                                height: 34px!important
+                                color: $brandWhite
+                                outline: none
+                                &::placeholder
+                                    opacity: 1
+                                    color: $brandWhite
+                            select
+                                padding: 0 4px!important
+                            input[type="file"]
+                                padding: 0px!important
+                                padding-bottom: 0px!important
+                                border-radius: 0px 
+                                border: 0px solid $cinnabar!important
+                                height: auto!important
+                                cursor: pointer
+                            textarea
+                                height: 134px!important
+                                padding-top: 6px!important
+                        .wpcf7-not-valid-tip
+                            font-size: 0.8em
+                        .ginput_container_fileupload
+                            position: relative
+            .gform_footer
+                padding: 8px 0 0
+                text-align: left
+                margin: 0 
+                position: relative
+                display: flex
+                align-items: center
+                img
+                    height: 30px
+                    width: 30px
+                    border-radius: 50%
+                    padding: 0
+                input
+                    @extend %btn
+                    font-size: 12px!important
+                    padding: 0 30px!important
+                    margin-right: 5px!important
+                    &:hover
+                        background: none
+                        color: $cinnabar
+                .ajax-loader
+                    position: absolute
+                    left: 102%
+                    height: 19px
+                    width: 19px
+                    bottom: 10px
+                    padding: 0
+                    margin: auto
+                    border-radius: 50% 
+                    background-color : $brandWhite
+                    background-position: center center
+                    background-size: 15px
+                    background-repeat: no-repeat
+.popup-bottom-logo
+    width: 100%
+    text-align: center
+    padding-top: 50px
+    display: none
+    @media (max-width: $layout-breakpoint-md)
+        display: block
+        padding-top: 20px
+
+    @media (max-width: $layout-breakpoint-sm)
+        padding-top: 10px
+
+    img
+        width: 110px
+.open-contact-form
+    .social-icons,.menu-contact-details
+        @media (max-width: $layout-breakpoint-md)
+            display: none
+.register-btn-popoup-hide-html
+    .mail
+        visibility: visible!important
+        opacity: 1!important
+        right: 0 !important
+.register-form
+    margin: 0 0 50px
+    > div
+        position: relative
+        z-index: 2
+    &:before
+        top: -150px
+    &:after
+        bottom: -100px
+    &:before,&:after
+        content: ""
+        position: absolute
+        height: 134.1vw
+        width: 134.1vw
+        left: 0
+        right: 0
+        margin: auto
+        border-radius: 50%
+        background: $black-pearl
+        display: none
+        transition: all 0.5s
+        @media (max-width: $layout-breakpoint-md)
+            height: 160vw
+            width: 160vw
+            display: block
+            left: 0vw
+            border-radius: 0
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output
+    display: none!important
+body .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half)
+    max-width: calc(100% - 0px)!important
+    margin: 0!important
+    border: 0
+    background: none
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.gfield_description
+    position: absolute
+    right: 0
+    width: auto
+    font-size: 9px
+    top: 6px
+    padding: 0
+    color: $cinnabar
+body
+    .gform_wrapper 
+        div
+            &.validation_error
+                padding: 0
+                margin: 0
+                border: 0
+                font-weight: normal
+                color: $cinnabar
+                text-align: left
+                line-height: 1.6em
+                margin: 0 0 20px
+
+
+
+
+
+
+
+
+.services-inner-form
+    position: fixed
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    visibility: hidden
+    opacity: 0
+    z-index: 99999
+    color: $brandWhite
+    background: rgba(5,10,35,0.3)
+    transition: all 0.5s
+    overflow: hidden
+    @media (max-width: $layout-breakpoint-md)
+        padding-top: 48px
+    .gform_wrapper 
+        form 
+            .gform_footer 
+                input
+                    &:hover
+                        color: $brandWhite!important
+    .gform_confirmation_message
+        .btn 
+            &.btn-border
+                background: none
+                border-color: $brandWhite
+                color: $brandWhite
+                &:hover
+                    background: $cinnabar
+                    border-color: $cinnabar
+                    color: $brandWhite
+    .d-table
+        @media (max-width: $layout-breakpoint-md)
+            display: block
+    .register-form
+        transform: scale(1)
+
+    &.open-service-form
+        top: 0
+        bottom: 0
+        visibility: visible
+        opacity: 1
+        .menu-inner
+            height: auto
+            overflow: visible
+            @media (max-width: $layout-breakpoint-lg)
+                justify-content: center
+            &::before
+                transform: scale(1)
+                transition: all 0.5s
+                @media (max-width: $layout-breakpoint-md)
+                    transform: scale(2)
+
+
+        .register-form
+            transform: scale(1)
+            &:before,&:after
+                transform: scale(1)
+
+
+
+    .register-form
+        &:before,&:after
+            transform: scale(0.6)
+            @media (max-width: $layout-breakpoint-md)
+                transform: scale(1)
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+
+    .menu-inner
+        height: 0
+        overflow: hidden
+        &::before
+            transform: scale(0.3)
+            transition: all 0.5s
+            @media (max-width: $layout-breakpoint-xxl)
+                height: 88.95vw
+                width: 88.95vw
+            @media (max-width: $layout-breakpoint-xl)
+                height: 94.95vw
+                width: 94.95vw
+            @media (max-width: $layout-breakpoint-lg)
+                height: 100vw
+                width: 100vw
+            @media (max-width: $layout-breakpoint-md)
+                border-radius: 0
+                height: 210vw
+                width: 210vw
+                left: 0
+                top: 0
+                bottom: 0
+                right: 0
+                transform: scale(2)
+
+
+    .d-table-cell
+        text-align: center
+
+    .register-form
+        visibility: visible
+        opacity: 1
+        position: relative
+        @media (max-width: $layout-breakpoint-lg)
+            margin-top: -9px
+
+        @media (max-width: $layout-breakpoint-sm)
+            margin-top: 0px
+            width: 100%
+
+        h1,.h1
+            max-width: 250px
+            @media (max-width: $layout-breakpoint-lg)
+                margin: 0 0 21px
+body 
+    .gform_confirmation_message
+        p
+            font-size: 15px
+.gform_wrapper 
+    .gform_footer 
+        input[type=submit]
+            width: auto!important
+
+body .gform_wrapper form .gform_body ul#gform_fields_4 li#field_4_5 .gfield_label
+    display: block
+    height: auto
+    width: auto 
+    opacity: 1
+    color: $brandWhite
+    visibility: visible
+    font-size: 12px
+    padding: 0 0 6px
+    letter-spacing: 0.3em

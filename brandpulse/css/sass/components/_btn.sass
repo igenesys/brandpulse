@@ -1,0 +1,105 @@
+button, input[type="sumit"]
+    transition: all 0.5s 
+    outline: 0px !important
+
+%btn 
+    text-decoration: none
+    vertical-align: top
+    text-transform: uppercase 
+    line-height: 30px
+    text-align: center
+    padding: 0 25px
+    display: inline-block
+    letter-spacing: 0.33em
+    background: $cinnabar
+    font-family: $default-font-bold
+    color: $brandWhite
+    font-size: 12px
+    min-width: 140px
+    cursor: pointer
+    border-radius: 36px
+    padding-top: 1px
+    border: 1px solid $cinnabar
+    outline: 0px !important
+    @media (max-width: $layout-breakpoint-xxl)
+        padding: 0 15px
+    @media (max-width: $layout-breakpoint-vs)
+        padding: 0 25px
+        min-width: 140px
+    &.btn-border
+        background: none
+        color: $cinnabar
+        &:hover
+            background: $cinnabar 
+            color: $brandWhite
+    &.btn-border-white
+        border-color: $brandWhite
+        color: $brandWhite
+        &:hover
+            background: $brandWhite
+            color: $cinnabar
+    &.btn-border-blue
+        border-color: $brandBlack
+        color: $brandBlack
+        &:hover
+            background: $brandBlack
+            color: $brandWhite
+    &.btn-arrow-down
+        &:after
+            transform: rotate(45deg)
+            top: -0.2em
+            border-color: $cinnabar
+    &.btn-white
+        background: $brandWhite
+        color: $black-pearl
+.btn
+    @extend %btn
+    &:hover
+        background: none
+        color: $cinnabar
+
+.back-link
+    position: relative
+    font-size: 12px
+    color: $brandWhite
+    border: 0
+    text-transform: uppercase
+    letter-spacing: 0.38em
+    &:before
+        content: ""
+        display: inline-block
+        position: relative
+        left: 2px
+        top: -1px
+        bottom: 0
+        width: 4px
+        height: 4px
+        border-left: 1px solid
+        border-bottom: 1px solid
+        -webkit-transform: rotate(45deg)
+        transform: rotate(45deg)
+        margin-right: 21px
+    &.back-link-dark
+        color: $dark-blue
+        font-family: $default-font-bold
+    &.close-link
+        position: absolute
+        right: 35px
+        left: auto
+        top: 33px
+        z-index: 99
+        svg
+            transition: all .5s
+            g
+                line
+                    transition: all .5s
+            &:hover
+                g
+                    line
+                        stroke: $bittersweet
+                        transition: all .5s
+        &::before
+            display: none
+    &:hover
+        color: $cinnabar
+    

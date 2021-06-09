@@ -1,0 +1,54 @@
+.mail-section-row
+    display: flex
+    align-items: flex-end
+    @media (max-width: $layout-breakpoint-md)
+        flex-wrap: wrap
+        position: relative
+    .mail-sec-img
+        width: 180px
+        @media (max-width: $layout-breakpoint-md)
+            width: 100%
+            text-align: center
+            margin-top: -168px
+        img
+            @media (max-width: $layout-breakpoint-md)
+                width: 180px
+    .mail-sec-caps
+        width: calc(100% - 180px)
+        padding-left: 20px
+        @media (max-width: $layout-breakpoint-md)
+            width: 100%
+            padding-left: 0px
+            text-align: center
+            padding: 14px 1px
+            padding-bottom: 26px !important
+        @media (max-width: $layout-breakpoint-xs)
+            padding: 8px 1px 0
+        h1,.h1
+            margin: 0 0 20px
+            @media (max-width: $layout-breakpoint-md)
+                font-size: 28px
+                margin: 0 0 17px
+            @media (max-width: $layout-breakpoint-xs)
+                margin: 0 0 22px
+    &.mail-sec-caps-top
+        .mail-sec-caps
+            padding-bottom: 22px
+            @media (max-width: $layout-breakpoint-xs)
+                padding-bottom: 35px !important
+    &.mail-sec-caps-bottom
+        padding-top: 8px
+        p
+            margin: 0 0 16px
+        .mail-sec-caps
+            @media (max-width: $layout-breakpoint-xs)
+                padding-bottom: 24px !important
+.home-cases-section
+    &.cases-list-section
+        padding: 0
+.mail-section
+    padding: 78px 0
+    margin-bottom: 149px
+    @media (max-width: $layout-breakpoint-md)
+        margin-top: 132px
+        padding: 78px 0 4px
